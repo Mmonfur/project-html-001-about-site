@@ -5,6 +5,9 @@
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
+
+
+
 /* Basic */
 @-ms-viewport {
   width: device-width; }
@@ -1778,6 +1781,14 @@ ul.icons {
     .image.main img {
       width: 100%; }
 
+  .gallery img {
+    margin: 3%;
+    width: 514px;
+    height: 366px;
+    border-radius: 12px;
+    box-shadow: 3px 3px 7px;
+  }
+
 /* Wrapper */
 .wrapper {
   padding: 8rem 0 6rem 0 ;
@@ -2663,7 +2674,7 @@ body {
 /* Main */
 main {
   display: inline-block;
-  width: 70%;
+  width: 100%;
 }
 aside {
   display: inline-block;
