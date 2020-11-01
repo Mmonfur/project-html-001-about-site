@@ -6,7 +6,10 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 
-
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
 
 /* Basic */
 @-ms-viewport {
@@ -1783,8 +1786,8 @@ ul.icons {
 
   .gallery img {
     margin: 3%;
-    width: 514px;
-    height: 366px;
+    max-width: 100%;
+    height: auto;
     border-radius: 12px;
     box-shadow: 3px 3px 7px;
   }
