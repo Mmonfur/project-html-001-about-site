@@ -58,23 +58,31 @@
 
 <section style="margin: 0px 57px 10px 57px;">
 <form>
+    <fieldset>
     <div>
-        <label style="margin-top:10px" for="name">Név: *</label>
+        <label style="margin-top:10px" for="name">Name: *</label>
         <input id="name" name="name" type="text" required>
+        <small>Min 5 characters long</small>
     </div>
     <div>
-        <label style="margin-top:10px" for="email">Email cím: *</label>
+        <label style="margin-top:10px" for="email">Email address: *</label>
         <input id="email" name="email" type="email" required>
+        <small>Valid email address</small>
     </div>
     <div>
-        <label style="margin-top:10px" for="address">Cím: *</label>
+        <label style="margin-top:10px" for="address">Address: *</label>
         <input id="address" name="address" type="text" required>
     </div>
     <div>
-        <label style="margin-top:10px" for="address">Megjegyzés:</label>
+        <label style="margin-top:10px" for="address">Comment:</label>
         <textarea id="comment" name="comment" rows="5"></textarea>
+        <small>Min 20 characters long</small>
     </div>
-    
+    </fieldset>
+    <br>
+    <div>
+        <input type="button" value="Send">
+    </div>
 </form>
 
 </section>
