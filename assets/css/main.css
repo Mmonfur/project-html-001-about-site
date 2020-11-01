@@ -6,6 +6,16 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 
+.Btn1 {
+  background-color: none; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
 .responsive {
   max-width: 100%;
   height: auto;
